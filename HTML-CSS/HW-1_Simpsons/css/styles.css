@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background: #9a9999;
+}
+h1 {
+    background: aqua;
+    color: #fff;
+}
+p {
+    background: yellow;
+    color: blue;
+}
+h2 {
+    background: #24db9d;
+    color: azure;
+}
+ul > li:nth-child(1) {
+    background: lavenderblush;
+    color: #24db9d;
+}
+ul > li:nth-child(2) {
+    background: lemonchiffon;
+    color: palevioletred;
+}
+ul > li:nth-child(3) {
+    background: lavender;
+    color: coral;
+}

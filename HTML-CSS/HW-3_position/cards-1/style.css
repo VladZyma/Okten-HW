@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards__row {
+    width: 1040px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    position: relative;
+
+    width: 311px;
+    height: 400px;
+    padding: 100px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+}
+.card__logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #fff;
+}
+.fa-solid {
+    font-size: 30px;
+    color: #d55a2c;
+}
+.card__title {
+    margin-bottom: 30px;
+
+    font-family: "Book Antiqua";
+    font-size: 28px;
+    text-align: center;
+}
+.card__text {
+    margin-bottom: 40px;
+
+    font-family: "Book Antiqua";
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #8f8989;
+}
+.card__btn{
+    display: flex;
+}
+.card__btn-link {
+    padding: 18px 50px;
+
+    font-family: "Book Antiqua";
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
