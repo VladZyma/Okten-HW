@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.post-details-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    border: 2px solid salmon;
+    background: rgb(250,128,144,0.5);
+}
+.post-details-container >ul {
+    list-style-type: none;
+    padding: 0;
+}
+.post-details-container >ul > li {
+    padding: 5px;
+    border: 1px solid white;
+    background: blue;
+    color: white;
+}
+
+.comments-container {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid sandybrown;
+    background: rgb(244, 164, 96, 0.5);
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.comments-container > div {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-basis: 459px;
+    border: 1px solid yellow;
+}
