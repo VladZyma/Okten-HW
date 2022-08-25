@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    background: gainsboro;
+}
+.user {
+    padding: 15px;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    background: aquamarine;
+}
+.user__id, .user__name {
+    color: #447be3;
+}
+.user__btn {
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background: lemonchiffon;
+}
